@@ -1,116 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-* {
-  box-sizing: border-box;
-}
-:root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
-}
-body {
-  background-color: var(--primary-color);
-  font-family: "Benne", serif;
-  margin: 0;
-}
+<h1>Movie Search App</h1>
 
-.logo {
-  font-family: inherit;
-}
-header {
-  padding: 1rem;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: var(--secondary-color);
-}
-.search {
-  background-color: transparent;
-  border: 2px solid var(--primary-color);
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  font-size: 1rem;
-  color: #fff;
-  font-family: inherit;
-  margin-top: 10px;
-}
-.search:focus {
-  outline: 0;
-  background-color: var(--primary-color);
-}
-.search::placeholder {
-  color: #7378c5;
-}
-main,
-#recommendations {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.movie {
-  width: 300px;
-  margin: 1rem;
-  border-radius: 3px;
-  box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 1);
-  background-color: var(--secondary-color);
-  position: relative;
-  overflow: hidden;
-}
-.movie img {
-  width: 100%;
-}
-.movie-info {
-  color: #eee;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem 1rem;
-  letter-spacing: 0.5px;
-}
-.movie-info h3 {
-  margin-top: 0;
-}
-.movie-info span {
-  background-color: var(--primary-color);
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
-  font-weight: bold;
-}
-.movie-info span.green {
-  color: lightgreen;
-}
-.movie-info span.orange {
-  color: orange;
-}
-.movie-info span.red {
-  color: red;
-}
-.overview {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  padding: 1rem;
-  max-height: 100%;
-  transform: translateY(101%);
-  transition: transform 0.3s ease-in-out;
-}
-.movie:hover .overview {
-  transform: translateY(0);
-}
-.footer {
-  padding: 0.4rem !important;
-  margin: 10px;
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
-  background-color: #212529 !important;
-}
-.footer h4 {
-  color: white;
-  text-align: center;
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
+<p>Simple Movie Search App in HTML, CSS, and JavaScript using the APIs for fetching movies information.</p>
+
+<h3>Used Technologies</h3>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+</ul>
+
+<h3>Used APIs</h4>
+<ul>
+  <li>TMDB API</li>
+</ul>
+
+### Steps to Use:
+---
+
+- Download or clone the repository
+```
+git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
+```
+- Go to the directory
+- Run the index.html file
+- Just Type the movie name you want to know the details of, and then press Enter.
+- After that it will automatically display Details and TMDB rating.
+
+
+<h3> ScreenShots </h3>  
+<img width="943" alt="Movie-Search-App" src="https://user-images.githubusercontent.com/64218887/127524703-566caee0-ee93-4802-b6c6-6173b6fbb4f6.png">
+
+<br>
