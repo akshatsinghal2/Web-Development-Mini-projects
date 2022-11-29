@@ -15,7 +15,7 @@ This website contains frontend for Mygym website, and technologies used are
 - Download or clone the repository
 
 ```
-git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
+git clone https://github.com/akshatsinghal2/Web-Development-Mini-projects.git
 ```
 
 - Go to the directory
